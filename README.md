@@ -35,7 +35,7 @@
 
 # :pushpin: YOU & I
 > 클라우드 기반 공통 취미를 공유하는 지역 소모임 관리 플랫폼
-> 데모사이트 링크
+- [데모사이트 링크](https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I)
 
 </br>
 
