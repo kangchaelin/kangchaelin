@@ -63,14 +63,13 @@
 ##### `IDE & Etc`
   - GitHub
   - Eclipse
-
-  
-
+    
 </br>
 
-## 3. ERD 설계
-![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/final_erd.png)
-![](https://github.com/JungHyung2/gitio.io/blob/master/assets/images/portfolio/p1.jpg)
+##### 😂프로젝트 후기😂
+> 👩 : 프로젝트를 진행하는 동안엔 꽤나 많이 힘들었다. "왜이렇게 안되지" "왜이렇게 못하지" 만 수천 
+        번 되뇌였다. 하지만 고생 끝에 낙이온다고 코드를 보면서 이전에는 보이지 않던 것들이 보이기 
+        시작했다. 그간 새롭게 알게된 것들, 공부한 것들을 아래 나열해보겠다 !!
 
 
 ## 4. 핵심 기능
