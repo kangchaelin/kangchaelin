@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=Welcome%20to%20채린's%20GitHub%20🙌&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=50&height=250)
 
-# 🔎 Once I've used
+## 💡 Once I've used
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
     <!-- Backend -->
     <p><strong>Backend</strong></p>
@@ -33,15 +33,16 @@
 </div>
 
 
-# :pushpin: YOU & I
+## 💡프로젝트 경험 
+### 📌YOU & I
 > 클라우드 기반 공통 취미를 공유하는 지역 소모임 관리 플랫폼
 - [데모사이트 링크](https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I)
 
 </br>
 
-## 1. 제작 기간 & 참여 인원
-- 2019년 2월 18일 ~ 4월 5일
-- 개인 프로젝트
+#### 1. 제작 기간 & 참여 인원
+- 2023년 11월 22일 ~ 12월 8일
+- 팀 프로젝트
 
 </br>
 
