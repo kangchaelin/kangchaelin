@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rounded&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=rounded&color=timeAuto&height=300&section=header&text=Welcome%20to%20채린's%20GitHub&fontSize=90)
 
 
 # :pushpin: YOU & I
