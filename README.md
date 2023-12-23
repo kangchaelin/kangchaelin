@@ -74,7 +74,6 @@
 
 #### 4. Study
 <details><summary><h5>📍 쿼리스트링이란?</h5></summary>
-</br>
 <div>1. 우리가 진행한 프로젝트에서는 각 그룹마다 커뮤니티 페이지가 존재했다.</div>
 <div>2. 그렇다면 사용자가 커뮤니티 페이지에 접속했을 때 각 사용자에 따라 가입한 그룹의 정보만을 화면에 보여줘야 한다.</div>
 <div>3. 또한, 페이지가 이동되더라도 서버측에 보내야하는 데이터의 값들이 사라지면 안됐다.</div>
@@ -101,6 +100,48 @@
 <div><h7> $("#아이디").show(); -> 선택한 요소를 표시하기</h7></div>
 <div><h7> $("#아이디").slideToggle(); -> 숨겨져 있던 요소는 아래로 펼쳐지며 노출되고, 노출되어 있던 요소는 위로 접으면서 숨김</h7></div>
  </details>
+
+<details><summary><h5>📍 Gson 라이브러리</div>
+<div><h7>Gson라이브러리란 Google에서 만든 Java용 라이브러리로, JSON 데이터와 Java 객체 간의 변환을 쉽게 할 수 있도록 도와주는 도구이다. 프로젝트에서 각 그룹마다 소속된 사용자들의 닉네임, 연락처, 직급 등의 정보를 객체 배열 형태로 가져오기 위해 사용했다. </h7></div> 
+<div markdown="1">
+
+public class memberInfoService implements Command {
+
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		
+		response.setContentType("text/html;charset=utf-8");
+		PrintWriter out = response.getWriter();
+
+		request.setCharacterEncoding("utf-8");
+
+		String groupNo = request.getParameter("groupNo");
+		int groupNoInt = Integer.parseInt(groupNo);
+
+		User_DTO dto = new User_DTO();
+		dto.setGroupNo(groupNoInt);
+
+		User_DAO dao = new User_DAO();
+		List<User_DTO> res = dao.member(dto);
+
+
+		if (res.isEmpty()) {
+			out.print("false");
+		} else {
+			Gson gson = new Gson();
+			String result = gson.toJson(res);
+			out.print(result);
+		}
+		return null;
+	}
+
+}
+
+</div>
+
+ </details>
+
 
 
 
