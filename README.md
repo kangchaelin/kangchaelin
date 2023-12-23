@@ -80,7 +80,18 @@
 <div>3. 또한, 페이지가 이동되더라도 서버측에 보내야하는 데이터의 값들이 사라지면 안됐다.</div>
 <div>4. 따라서 URL의 뒤에 입력 데이터를 함께 제공하는 가장 단순한 데이터 전달 방법이자 웹개발에서 데이터를 요청하는 방식 중 주로 GET방식으로 데이터를 요청할 때 쓰이는 방법인 쿼리스트링 방식을 생각하게 됐다.</div>
 <h4>"리소스?이름=값" 형식.</h4>
-<img src="https://github.com/kangchaelin/kangchaelin/issues/1#issue-2054779957">
+<div markdown="1">
+<script>
+    $(document).ready(function(){
+        $.ajax({
+            url: 'getGroupName.do?groupNo=' + GroupNo,
+            dataType: 'json',
+            success: function(data){
+                
+        })
+        });
+</script>
+</div>
  </details>
 
 <details><summary><h5>📍 JQuery 메서드</h5></summary>
