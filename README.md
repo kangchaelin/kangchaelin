@@ -36,7 +36,7 @@
 ## 💡 프로젝트 경험 
 ### 📌YOU & I
 > 클라우드 기반 공통 취미를 공유하는 지역 소모임 관리 플랫폼
-- [데모사이트 링크](https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I)
+- [click me!](https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I)
 
 </br>
 
@@ -81,7 +81,7 @@
 <div>4. 따라서 URL의 뒤에 입력 데이터를 함께 제공하는 가장 단순한 데이터 전달 방법이자 웹개발에서 데이터를 요청하는 방식 중 주로 GET방식으로 데이터를 요청할 때 쓰이는 방법인 쿼리스트링 방식을 생각하게 됐다.</div>
 <h4>"리소스?이름=값" 형식.</h4>
 <div markdown="1">
-<script>
+
     $(document).ready(function(){
         $.ajax({
             url: 'getGroupName.do?groupNo=' + GroupNo,
@@ -90,19 +90,16 @@
                 
         })
         });
-</script>
+
 </div>
  </details>
 
 <details><summary><h5>📍 JQuery 메서드</h5></summary>
-
-<div><h6>html()</h6></div>
-<div><h7> $("#아이디").html() -> 선택한 요소에 하위 요소들을 반환.</h7></div>
-<div><h7> $("#아이디").text() -> 선택한 요소 안에 텍스트만을 반환</h7></div>
-   
-
-
-
+<div><h7> $("#아이디").html(); -> 선택한 요소에 하위 요소들을 반환.</h7></div>
+<div><h7> $("#아이디").text(); -> 선택한 요소 안에 텍스트만을 반환</h7></div> 
+<div><h7> $("#아이디").hide(); -> 선택한 요소를 숨기기</h7></div>
+<div><h7> $("#아이디").show(); -> 선택한 요소를 표시하기</h7></div>
+<div><h7> $("#아이디").slideToggle(); -> 숨겨져 있던 요소는 아래로 펼쳐지며 노출되고, 노출되어 있던 요소는 위로 접으면서 숨김</h7></div>
  </details>
 
 
