@@ -147,8 +147,27 @@
     
 </div>
 
-<div><h6>UpdateMyPageService.java</h6></div>
+<div><h6>User_DAO : update()</h6></div>
 <div markdown="1">
+	
+	public int update(User_DTO dto) {
+		SqlSession sqlSession = factory.openSession(true);
+		int row = sqlSession.update("update", dto);
+		sqlSession.close();
+		return row;
+	}
+
+</div>
+
+<div><h6>Mapper.xml : id="update"</h6></div>
+<div markdown="1">
+	
+	<update id="update" parameterType="com.YOU_I.model.User_DTO">
+		UPDATE tbl_user
+		SET
+		nick=#{nick}, phone=#{phone}, region=#{region}, hobby=#{hobby}
+		WHERE id = #{id}
+	</update>
 
 </div>
  </details>
