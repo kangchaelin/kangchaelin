@@ -66,7 +66,96 @@
     
 </br>
 
-#### 3. 프로젝트 후기😂
+#### 3. 내가 구현한 기능
+<details><summary><h5>📍 회원 정보 수정</h5></summary>
+<div><h6>mypg.html</h6></div>
+<div markdown="1">
+
+    // 수정 버튼을 클릭하면 이벤트 발생
+    $("#mybtn").on("click", () => {
+
+	var inputValues = [];
+
+ 	// input태그(닉네임, 연락처, 활동지역)에 정보를 입력받고, 입력받은 데이터를 inputValues 리스트에 추가
+	$(".ip").each(function() {
+		var value = $(this).val();
+		inputValues.push(value);
+	});
+ 
+	var mypCtValues = [];
+
+ 	// select태그에 정보를 입력받고, 입력받은 데이터를 mypCtValues 리스트에 추가
+	$(".mypCt").each(function() {
+		var value = $(this).val();
+		mypCtValues.push(value);
+	});
+
+	var sendObj = { nick: inputValues[0], phone: inputValues[1], region: inputValues[2], ct1: mypCtValues[0]};
+	$.ajax({
+		// UpdateMyPage.do페이지에 요청
+		url: "UpdateMyPage.do",
+  		// UpdateMyPage.do페이지에 데이터 보내기
+		data: sendObj,
+		dataType: "json",
+		success: function() {
+		},
+		error: function(e) {
+		}
+		})
+	})
+
+</div>
+
+<div><h6>UpdateMyPageService.java</h6></div>
+<div markdown="1">
+	public class UpdateMyPageService implements Command {
+
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse response)
+		throws ServletException, IOException {
+
+		request.setCharacterEncoding("utf-8");
+		response.setContentType("text/html;charset=utf-8");
+		
+		HttpSession session = request.getSession(); 
+		String user_id = (String) session.getAttribute("id");
+		String nick =request.getParameter("nick");
+		String phone =request.getParameter("phone");
+		String region =request.getParameter("region");
+		String ct1 =request.getParameter("ct1");
+  
+		User_DTO u_dt = new User_DTO();
+		u_dt.setId(user_id);
+		u_dt.setNick(nick);
+		u_dt.setPhone(phone);
+		u_dt.setRegion(region);
+		u_dt.setHobby(ct1);
+		
+		User_DAO dao = new User_DAO();
+		int row = dao.update(u_dt);
+		
+		if(row > 0 ) {
+			return "redirect:/Gomypg.do";
+		}
+		else {
+			return "redirect:/Gomypg.do";
+		}
+		
+	}
+
+   }
+</div>
+
+<div><h6>UpdateMyPageService.java</h6></div>
+<div markdown="1">
+
+</div>
+ </details>
+ 
+
+</br>
+
+#### 4. 프로젝트 후기😂
 > 👩 : 프로젝트를 진행하는 동안엔 꽤나 많이 힘들었다. "왜 이렇게 안되지", "왜 이렇게 못하지" 만
        천번 되뇌였다. 하지만 고생 끝에 낙이온다고 코드를 보면서 이전에는 보이지 않던 것들이 보이 
       기 시작했다. 그간 새롭게 알게된 것들, 공부한 것들을 아래 나열해보겠다 !!
