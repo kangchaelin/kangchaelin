@@ -101,12 +101,11 @@
 <div><h7> $("#아이디").slideToggle(); -> 숨겨져 있던 요소는 아래로 펼쳐지며 노출되고, 노출되어 있던 요소는 위로 접으면서 숨김</h7></div>
  </details>
 
-<details><summary><h5>📍 Gson 라이브러리</div>
+<details><summary><h5>📍 Gson 라이브러리</h5></summary>
 <div><h7>Gson라이브러리란 Google에서 만든 Java용 라이브러리로, JSON 데이터와 Java 객체 간의 변환을 쉽게 할 수 있도록 도와주는 도구이다. 프로젝트에서 각 그룹마다 소속된 사용자들의 닉네임, 연락처, 직급 등의 정보를 객체 배열 형태로 가져오기 위해 사용했다. </h7></div> 
+	
 <div markdown="1">
-
 public class memberInfoService implements Command {
-
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
