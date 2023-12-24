@@ -330,8 +330,10 @@
 	}
 
 </div>
+</details>
 
- </details>
+
+## 💡개인 공부
 
 
 
