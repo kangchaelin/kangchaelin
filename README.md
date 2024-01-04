@@ -349,7 +349,11 @@ ex) <context:component-scan base-package="com.smhrd.web" /> com.smhrd.web 패키
 
 ![image](https://github.com/kangchaelin/kangchaelin/assets/142488328/e3fd9738-7f21-4896-985e-fc855879e076)
 
+Controller의 파라미터 수집
+파라미터 수집하다 = binding 바인딩하다
 
+Model이라는 데이터 전달자
+Model 객체는 컨트롤러에서 생성된 데이터를 담아서 JSP에 전달하는 역할 뷰(view)로 전달한다는 뜻
 
 
 
