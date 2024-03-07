@@ -67,4 +67,5 @@
 </br>
 
 ![kangchaelin's GitHub stats](https://github-readme-stats.vercel.app/api?username=kangchaelin&show_icons=true&theme=transparent)
+[![kangchaelin's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=kangchaelin)](https://github.com/anuraghazra/github-readme-stats)
 
