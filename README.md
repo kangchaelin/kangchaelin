@@ -55,5 +55,5 @@
 >[click me!](https://github.com/2023-SMHRD-IS-CLOUD-1/SpringCoC)
 
 
-
+![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=timeGradient)
 
