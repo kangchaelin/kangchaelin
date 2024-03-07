@@ -1,7 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=Welcome%20to%20채린's%20GitHub%20🙌&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=50&height=250)
 
 
-![kangchaelin's GitHub stats](https://github-readme-stats.vercel.app/api?username=kangchaelin&show_icons=true&theme=transparent)
+![kangchaelin's GitHub stats](https://github-readme-stats.vercel.app/api?username=kangchaelin&show_icons=true&theme=dark)
+
 
 
 ## 💡 Once I've used
