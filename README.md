@@ -52,7 +52,7 @@
 >
 >참여 인원: 팀프로젝트(5명)
 >
->[click me!]([https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I](https://github.com/2023-SMHRD-IS-CLOUD-1/SpringCoC)https://github.com/2023-SMHRD-IS-CLOUD-1/SpringCoC)
+>[click me!](https://github.com/2023-SMHRD-IS-CLOUD-1/SpringCoC)
 
 
 
