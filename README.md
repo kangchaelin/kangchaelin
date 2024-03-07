@@ -1,5 +1,9 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=Welcome%20to%20채린's%20GitHub%20🙌&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=50&height=250)
 
+
+![kangchaelin's GitHub stats](https://github-readme-stats.vercel.app/api?username=kangchaelin&show_icons=true&theme=transparent)
+
+
 ## 💡 Once I've used
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
     <!-- Backend -->
@@ -66,6 +70,4 @@
     
 </br>
 
-![kangchaelin's GitHub stats](https://github-readme-stats.vercel.app/api?username=kangchaelin&show_icons=true&theme=transparent)
-[![kangchaelin's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=kangchaelin)](https://github.com/anuraghazra/github-readme-stats)
 
