@@ -92,7 +92,7 @@
 
 <br>
 <p align="center">
-<span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0901a8a1-85f8-46cd-b94d-f4a88998e46e" alt="이미지 설명" width="400"></span>
+<span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/8d6e79ab-5c7d-47c1-a835-63a9dfcc44f3" alt="이미지 설명" width="400"></span>
 <span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400"></span>
 </p>
 
