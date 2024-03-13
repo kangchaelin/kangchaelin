@@ -55,10 +55,14 @@
 <details>
    <summary>화면 보기</summary>
       <br/>
-<p align="center">
-  <span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/23454ea0-dce3-4325-82f8-a0cd4c920201" width="400" /></span>
-  <span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/f2917c27-0407-4a10-a360-9db64ac7ee29" width="400" /></span>
-</p>
+<div align="center">
+<div><메인페이지></div>
+<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/f2917c27-0407-4a10-a360-9db64ac7ee29" width="400" />
+    <br>
+    <br>
+<div><마이페이지></div>
+<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/23454ea0-dce3-4325-82f8-a0cd4c920201" width="400" />
+</div>
 </details>
 
 
@@ -91,10 +95,17 @@
  <summary>화면 보기</summary>
 
 <br>
-<p align="center">
-<span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/8d6e79ab-5c7d-47c1-a835-63a9dfcc44f3" alt="이미지 설명" width="400"></span>
-<span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400"></span>
-</p>
+
+<div align="center">
+  <div><네이버 로그인 기능></div>
+  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/8d6e79ab-5c7d-47c1-a835-63a9dfcc44f3" alt="이미지 설명" width="400">
+  <br>
+  <br>
+  <div><이미지 업로드 기능></div>
+  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400">
+</div>
+
+
 
 
 </details>
