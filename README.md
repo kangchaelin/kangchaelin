@@ -56,8 +56,8 @@
    <summary>화면 보기</summary>
       <br/>
 <p align="center">
-  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/23454ea0-dce3-4325-82f8-a0cd4c920201" width="400" />
-  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/f2917c27-0407-4a10-a360-9db64ac7ee29" width="400" />
+  <span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/23454ea0-dce3-4325-82f8-a0cd4c920201" width="400" /></span>
+  <span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/f2917c27-0407-4a10-a360-9db64ac7ee29" width="400" /></span>
 </p>
 </details>
 
