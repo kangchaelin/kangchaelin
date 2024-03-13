@@ -55,7 +55,7 @@
 <details>
    <summary>화면 보기</summary>
       <br/>
-<p>
+<p align="center">
   <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/23454ea0-dce3-4325-82f8-a0cd4c920201" width="400" />
   <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/f2917c27-0407-4a10-a360-9db64ac7ee29" width="400" />
 </p>
@@ -91,8 +91,10 @@
  <summary>화면 보기</summary>
 
 <br>
-
+<p align="center">
 <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/630b3aa3-f643-4fbc-8491-2b70f7848c28" alt="이미지 설명" width="400">
+<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400">
+</p>
 
 
 </details>
