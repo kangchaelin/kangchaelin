@@ -92,8 +92,8 @@
 
 <br>
 <p align="center">
-<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/630b3aa3-f643-4fbc-8491-2b70f7848c28" alt="이미지 설명" width="400">
-<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400">
+<span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/085ccd0f-cac9-4127-8c73-e7dc3cb2e7f9" alt="이미지 설명" width="400"></span>
+<span><img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400"></span>
 </p>
 
 
