@@ -86,8 +86,16 @@
 - 리액트에서 AWS S3 서비스를 활용하여 이미지 데이터 통신
 - 네이버 로그인 API 기능 구현
 - 회원가입 기능/S3 이미지 경로 저장/이미지 리스트 렌더링
-  
-![online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/kangchaelin/kangchaelin/assets/142488328/630b3aa3-f643-4fbc-8491-2b70f7848c28)
+
+<details>
+ <summary>화면 보기</summary>
+
+<br>
+
+<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/630b3aa3-f643-4fbc-8491-2b70f7848c28" alt="이미지 설명" width="400">
+
+
+</details>
 
 
 
