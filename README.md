@@ -103,6 +103,8 @@
   <br>
   <div><이미지 업로드 기능></div>
   <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400">
+  <div><회원가입 기능></div>
+  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/14044bd2-0556-42b6-8bf1-831dec015cb7" alt="이미지 설명" width="400">  
 </div>
 
 
