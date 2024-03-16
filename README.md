@@ -52,32 +52,6 @@
 - HTML과 CSS를 활용하여 마이페이지 및 메인페이지의 레이아웃과 디자인 작업
 - JavaScript와 jQuery 라이브러리를 활용해 회원정보 수정 및 회원탈퇴 기능 구현
 
-<details>
-   <summary>화면 보기</summary>
-      <br/>
-<div align="center">
-<div><메인페이지></div>
-<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/f2917c27-0407-4a10-a360-9db64ac7ee29" width="400" />
-    <br>
-    <br>
-<div><마이페이지></div>
-<img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/23454ea0-dce3-4325-82f8-a0cd4c920201" width="400" />
-</div>
-</details>
-
-
-#### ⭐ 트러블슈팅
-##### ✅ 회원 탈퇴 시 모든 테이블에서 회원 정보가 삭제되지 않는 문제 발생
-<details>
-<summary>자세히 보기</summary>
-    
-- **원인**: 초기에 테이블 설계 시 외래 키 제약 조건에 Cascade 옵션이 올바르게 설정되지 않아 발생
-
-- **해결 방법**: 데이터베이스에서 각 테이블의 외래 키 제약 조건을 확인한 후 `ALTER TABLE` 문을 사용하여 올바른 설정으로 변경
-</details>
-
-<br>
-
 ### 📌 AI 기술을 활용한 이미지 태깅 기반의 사진첩 서비스
 >개발 기간: 2024.02.01 ~ 2024.02.28
 >
