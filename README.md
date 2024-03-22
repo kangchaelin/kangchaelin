@@ -52,6 +52,8 @@
 - HTML과 CSS를 활용하여 마이페이지 및 메인페이지의 레이아웃과 디자인 작업
 - JavaScript와 jQuery 라이브러리를 활용해 회원정보 수정 및 회원탈퇴 기능 구현
 
+<br>
+
 ### 📌 AI 기술을 활용한 이미지 태깅 기반의 사진첩 서비스
 >개발 기간: 2024.02.01 ~ 2024.02.28
 >
@@ -65,28 +67,7 @@
 - 네이버 로그인 API 기능 구현
 - 회원가입 기능/S3 이미지 경로 저장/이미지 리스트 렌더링
 
-<details>
- <summary>화면 보기</summary>
 
-<br>
-
-<div align="center">
-  <div><네이버 로그인 기능></div>
-  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/8d6e79ab-5c7d-47c1-a835-63a9dfcc44f3" alt="이미지 설명" width="400">
-  <br>
-  <br>
-  <div><이미지 업로드 기능></div>
-  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400">
-  <br>
-  <br>
-  <div><회원가입 기능></div>
-  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/14044bd2-0556-42b6-8bf1-831dec015cb7" alt="이미지 설명" width="400">  
-</div>
-
-
-
-
-</details>
 
 
 
