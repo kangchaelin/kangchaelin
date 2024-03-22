@@ -4,6 +4,8 @@
 ![kangchaelin's GitHub stats](https://github-readme-stats.vercel.app/api?username=kangchaelin&show_icons=true&theme=dark)
 
 
+## 💡 PORTFOLIO
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kangchaelin&repo=PORTFOLIO)](https://github.com/kangchaelin/PORTFOLIO)
 
 ## 💡 Once I've used
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
